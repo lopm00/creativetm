@@ -1,15 +1,27 @@
-function myFunction() {
-  var str = document.getElementById("convs").innerHTML; 
-  var res = str.replace("999</span> DH", "99</span> $");
-  document.getElementById("convs").innerHTML = res;
-  
-  var str = document.getElementById("convs1").innerHTML; 
-  var res = str.replace("1499</span> DH", "155</span> $");
-  document.getElementById("convs1").innerHTML = res;
-  
-  var str = document.getElementById("convs2").innerHTML; 
-  var res = str.replace("4999</span> DH", "499</span> $");
-  document.getElementById("convs2").innerHTML = res;
+function Dollar() {
+  var x = document.getElementById("convs");
+  if (x.innerHTML === "999</span> DH") {
+    x.innerHTML = "99</span> $";
+  } else {
+    x.innerHTML = "999</span> DH";
+  }
+    var x = document.getElementById("convs1");
+  if (x.innerHTML === "1499</span> DH") {
+    x.innerHTML = "155</span> $";
+  } else {
+    x.innerHTML = "1499</span> DH";
+  }
+    var x = document.getElementById("convs2");
+  if (x.innerHTML === "4999</span> DH") {
+    x.innerHTML = "499</span> $";
+  } else {
+    x.innerHTML = "4999</span> DH";
+  }
+}
+
+
+function Dollar2() {
+ 
   
     var str = document.getElementById("convs3").innerHTML; 
   var res = str.replace("399</span> DH", "39</span> $");
