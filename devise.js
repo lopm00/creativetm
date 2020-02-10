@@ -1,21 +1,21 @@
 function Dollar() {
   var x = document.getElementById("convs");
-  if (x.innerHTML === "999</span> DH") {
-    x.innerHTML = "99</span> $";
+  if (x.innerHTML === "999 DH") {
+    x.innerHTML = "99 $";
   } else {
-    x.innerHTML = "999</span> DH";
+    x.innerHTML = "999 DH";
   }
     var x = document.getElementById("convs1");
-  if (x.innerHTML === "1499</span> DH") {
-    x.innerHTML = "155</span> $";
+  if (x.innerHTML === "1499 DH") {
+    x.innerHTML = "155 $";
   } else {
-    x.innerHTML = "1499</span> DH";
+    x.innerHTML = "1499 DH";
   }
     var x = document.getElementById("convs2");
-  if (x.innerHTML === "4999</span> DH") {
-    x.innerHTML = "499</span> $";
+  if (x.innerHTML === "4999 DH") {
+    x.innerHTML = "499 $";
   } else {
-    x.innerHTML = "4999</span> DH";
+    x.innerHTML = "4999 DH";
   }
 }
 
